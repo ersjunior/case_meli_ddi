@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    # Não fixar database (evita "postgres.public.*" com conn no DB `airflow` → erro cross-database).
+    schema: public
+    tables:
+      - name: tb_people_history
+      - name: tb_ddi

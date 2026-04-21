@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: int_people_monthly
+    columns:
+      - name: username
+        tests: [not_null]
+      - name: date_month
+        tests: [not_null]
+
+  - name: int_user_streak
+    columns:
+      - name: username
+        tests: [not_null]

@@ -1,0 +1,8 @@
+dbt-postgres
+pandas
+pytest
+streamlit>=1.33.0
+sqlalchemy
+psycopg2-binary
+plotly
+openai>=1.40.0

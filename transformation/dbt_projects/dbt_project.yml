@@ -1,0 +1,20 @@
+name: case_ddi
+version: "1.0.0"
+config-version: 2
+
+profile: case_ddi
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+seed-paths: ["seeds"]
+
+models:
+  case_ddi:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

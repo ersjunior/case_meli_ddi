@@ -1,0 +1,4 @@
+# Extensões do worker Airflow (imagem base já traz o Airflow).
+apache-airflow-providers-postgres==5.10.1
+dbt-core==1.7.14
+dbt-postgres==1.7.14

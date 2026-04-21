@@ -1,0 +1,5 @@
+# Não defina [theme] com backgroundColor fixo: isso impede o modo Escuro do menu
+# (⋮ → Configurações → Tema) de funcionar corretamente no app inteiro.
+
+[server]
+headless = true

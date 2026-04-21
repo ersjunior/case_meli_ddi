@@ -1,0 +1,13 @@
+# Usado com DBT_PROFILES_DIR apontando para esta pasta (Docker e local).
+case_ddi:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DBT_POSTGRES_HOST', 'localhost') }}"
+      user: "{{ env_var('DBT_POSTGRES_USER', 'airflow') }}"
+      password: "{{ env_var('DBT_POSTGRES_PASSWORD', 'airflow') }}"
+      port: "{{ env_var('DBT_POSTGRES_PORT', '5432') | as_number }}"
+      dbname: "{{ env_var('DBT_POSTGRES_DB', 'airflow') }}"
+      schema: "{{ env_var('DBT_POSTGRES_SCHEMA', 'analytics') }}"
+      threads: 4

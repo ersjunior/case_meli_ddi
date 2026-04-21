@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_people_history
+    columns:
+      - name: username
+        tests: [not_null]
+
+  - name: stg_ddi
+    columns:
+      - name: username
+        tests: [not_null]
+      - name: date_month
+        tests: [not_null]

@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fct_user_month
+    columns:
+      - name: username
+        tests: [not_null]
+      - name: date_month
+        tests: [not_null]
+
+  - name: agg_ddi_month
+    columns:
+      - name: date_month
+        tests: [not_null]
+      - name: site
+        tests: [not_null]
+      - name: division
+        tests: [not_null]
+      - name: department
+        tests: [not_null]
+      - name: user_classification
+        tests: [not_null]
