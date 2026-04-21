@@ -118,4 +118,4 @@ Ver [`tests/README.md`](tests/README.md).
 ## Entrega do case (PDF)
 
 O desafio pede documentação em PDF; 
-Caminho do PDF: [`case/case_meli_ddi.pdf`](case_meli_ddi.pdf).
+Caminho do PDF: [`case/case_meli_ddi.pdf`](case/case_meli_ddi.pdf).
