@@ -117,4 +117,5 @@ Ver [`tests/README.md`](tests/README.md).
 
 ## Entrega do case (PDF)
 
-O desafio pede documentação em PDF; use este repositório como suporte técnico e anexe prints do Streamlit/Airflow se fizer sentido.
+O desafio pede documentação em PDF; 
+Caminho do PDF: [`case/case_meli_ddi.pdf`](case_meli_ddi.pdf).
